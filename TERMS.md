@@ -1,42 +1,57 @@
-# TERMS for OpenEye VR Integration for Meta Quest Pro
+# TERMS for MoteLink Protocol
 
 ## Project Overview
-*This section should briefly describe the project's purpose, focusing on enhancing user interaction in VR through advanced eye-tracking technology.*
+MoteLink is a communication protocol for ultrasonic mote-based brain-computer interfaces (BCI). This project aims to develop a robust, low-latency protocol stack enabling reliable data transmission between implantable ultrasonic neural motes and external processing units.
 
 ## Terms and Conditions
 
 ### Good or Service Description
-- **Description**: A software module for Meta Quest Pro to integrate eye-tracking for object selection.
-- **Specifications**: Developed in Unity, supporting Unity 2020.3 LTS or newer, with specific performance metrics.
-- **Delivery Method**: Downloadable package from GitHub.
+- **Description**: A communication protocol specification and reference implementation for ultrasonic neural mote networks.
+- **Specifications**:
+  - Protocol specification document (IEEE-style format)
+  - Reference implementation in Rust
+  - Simulation environment for protocol testing
+  - Latency target: <10ms round-trip for command signals
+  - Support for mesh topology with up to 1024 motes
+- **Delivery Method**: All deliverables committed to this GitHub repository.
 
 ### Scope of Work
-- Development of the eye-tracking integration module, including coding, testing, documentation, and creating example VR scenes.
+- Protocol design and formal specification
+- Reference implementation with documented API
+- Simulation framework for protocol validation
+- Performance benchmarks and analysis
+- Technical documentation and integration guide
 
 ### Project Duration and Milestones
-- **Maximum Duration**: The project must be completed within 6 months from the contract date.
-- **Milestone**: 
-  - **Definition of Done**: Completion criteria including functional software, specified performance metrics, comprehensive documentation, tested software, and availability on GitHub.
+- **Maximum Duration**: 4 months from contract signing.
+- **Milestones**:
+  - **M1 (Month 1)**: Protocol specification draft and architecture design
+  - **M2 (Month 2)**: Reference implementation core modules
+  - **M3 (Month 3)**: Simulation environment and initial benchmarks
+  - **M4 (Month 4)**: Final documentation, optimization, and delivery
+  - **Definition of Done**: All specifications complete, code compiles and passes tests, documentation reviewed, benchmarks meet latency targets.
 
 ### Payment Terms
-- **Amount**: 27,000 USDT.
-- **Payment Schedule**: One month after successful delivery and acceptance of the completed project.
+- **Amount**: 1800 XTZ
+- **Payment Schedule**: Released upon successful delivery and acceptance of the completed project.
 
 ### Delay and Extension Policy
-- **Delay Penalties**: If the project is not completed within the specified duration, a penalty of [X%] per week of delay will be applied.
-- **Extension Requests**: Extensions may be granted based on progress. For every [Y%] of the project completed by the deadline, a [Z week] extension can be requested.
-- **Maximum Extension**: Total extension time not to exceed [N weeks/months].
+- **Delay Penalties**: If the project is not completed within the specified duration, backers may vote to dispute.
+- **Extension Requests**: Extensions may be negotiated with backer approval via on-chain voting.
 
 ### Confidentiality
-- Project details are publicly visible, but confidentiality on sensitive information is required.
+- All project materials are publicly visible in this repository.
+- No confidential information should be submitted.
 
 ### Dispute Resolution
-- Specify the process for handling disputes, including the role of the arbiter.
+- Disputes will be resolved by the designated arbiter as specified in the on-chain project contract.
+- The arbiter will review this TERMS.md file and the contents of the `submissions` folder.
+- Arbiter rulings may be appealed to the Jamaica Jurisdiction DAO.
 
 ### Appendices
-- **Appendix A**: Related projects, eye-tracking research, and Meta Quest Pro specs.
-- **Appendix B**: Potential use cases and benefits of the module.
+- **Appendix A**: References to ultrasonic neural dust research (Berkeley, 2016), existing BCI protocols.
+- **Appendix B**: Target hardware specifications and mote characteristics.
 
 ---
 
-**Note**: This TERMS.md is part of the project's contractual agreement. Its hash will be stored at contract origination to ensure integrity. Replace example texts with actual project details before finalizing.
+**Note**: This TERMS.md is part of the project's contractual agreement. Its hash is stored on-chain at contract origination to ensure integrity.
