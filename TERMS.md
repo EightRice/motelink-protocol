@@ -32,7 +32,8 @@ MoteLink is a communication protocol for ultrasonic mote-based brain-computer in
   - **Definition of Done**: All specifications complete, code compiles and passes tests, documentation reviewed, benchmarks meet latency targets.
 
 ### Payment Terms
-- **Amount**: 1800 XTZ
+- **Amount**: Determined by total backer contributions.
+- **Payment Token**: USDT
 - **Payment Schedule**: Released upon successful delivery and acceptance of the completed project.
 
 ### Delay and Extension Policy
